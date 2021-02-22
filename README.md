@@ -1,5 +1,5 @@
 # java_currency_exchange_app
-- herokuUrl: http://java-currency-exchange-app.herokuapp.com:8081
+- herokuUrl: 
 - Conversion API<br/>
 GET {herokuUrl}/currencyConversion/{amount}/{currency}<br/>
 parameters: <br/>

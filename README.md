@@ -1,7 +1,7 @@
 # java_currency_exchange_app
-
+- herokuUrl: http://java-currency-exchange-app.herokuapp.com:8081
 - Conversion API<br/>
-GET http://localhost:8081/currencyConversion/{amount}/{currency}<br/>
+GET {herokuUrl}/currencyConversion/{amount}/{currency}<br/>
 parameters: <br/>
 amount: Number,<br/>
 currency: String<br/>
@@ -21,7 +21,7 @@ Internal Server Error<br/>
 Invalid Input<br/>
 
 - Exchange Rate History API<br/>
-GET http://localhost:8081/rateHistory/{currency}<br/>
+GET {herokuUrl}/rateHistory/{currency}<br/>
 parameters: <br/>
 currency: String<br/>
 sample output (Success):<br/>

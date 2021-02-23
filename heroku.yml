@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    worker: Dockerfile
 run:
-  web: java -jar /app.jar
+  worker: java -jar /app.jar

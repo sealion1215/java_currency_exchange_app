@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: java -jar /app.jar
+  web: java -Dserver.port=8081 -jar /app.jar

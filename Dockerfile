@@ -7,6 +7,4 @@ RUN mvn package
 FROM dperezcabrera/openjdk11-alpine
 COPY --from=builder /java_currency_exchange_app/target/*.jar app.jar
 
-ENV PORT=8081
-EXPOSE 8081
 ENTRYPOINT ["java","-jar","/app.jar"]
